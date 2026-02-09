@@ -1,0 +1,81 @@
+### --- Django Core --- ###
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/collected/
+
+### --- Python & Build --- ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### --- Virtual Environments --- ###
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### --- Unit Tests & Coverage --- ###
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+
+### --- IDEs & Editors --- ###
+# PyCharm / IntelliJ
+.idea/
+*.iws
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+### --- Miscellaneous --- ###
+.DS_Store
+atlassian-ide-plugin.xml
+.ipynb_checkpoints
+celerybeat-schedule
+celerybeat.pid
+.mypy_cache/
+.ruff_cache/
